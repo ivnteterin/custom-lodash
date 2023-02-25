@@ -1,0 +1,17 @@
+{
+  "name": "custom-lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ivnteterin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.2",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
