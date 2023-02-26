@@ -230,6 +230,10 @@ test('Object_MERGE_3:\t Should return the first object with added merged/keys', 
   });
 });
 
+test('Object_MERGE_4:\t Returned object should be the same as the first, but mutated.', () => {
+  expect(_.merge(vars.merge_1, vars.merge_2)).toBe(vars.merge_1);
+});
+
 test('Object_OMIT_1:\t Should remove specified keys, properties', () => {
   expect(_.omit(vars.omit_1, ['a', 'c'])).toEqual({ b: '2' });
 });
